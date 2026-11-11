@@ -1,8 +1,9 @@
 $ git checkout main
-Switched to branch 'main'
+Already on 'main'
+M	merge_branches
 Your branch is up to date with 'origin/main'.
 $ git merge bug-fix-typo
-Updating 41be558..4c79691
-Fast-forward
- simple-interest.sh | 2 +-
+warning: in the working copy of 'merge_branches', LF will be replaced by CRLF the next time Git touches it
+Merge made by the 'ort' strategy.
+ README.md | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
